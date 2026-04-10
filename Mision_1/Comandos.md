@@ -7,3 +7,16 @@
 😉 `Set-ExecutionPolicy Unrestricted`  para habilitar ejecución de comandos  
 😉 `git add .`  para agregar los archivos a mi git (caja)  
 😉 `git commit -m "first commit"`  Para sellar la caja
+
+
+python --version
+
+Crear un entorno virtual
+`python -m venv env312`
+
+activar el entorno
+`env312\scripts\activate`
+
+`deactivate` desactiva
+
+`pip list` me permite verificar las librerías
