@@ -1,0 +1,16 @@
+body{
+    background: #525252e4;
+}
+
+.estilo_h1{
+    color: burlywood;
+}
+
+.estilo_h1_v2{
+    color: aqua;
+}
+
+.mi_imagen{
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}

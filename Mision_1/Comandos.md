@@ -20,3 +20,11 @@ activar el entorno
 `deactivate` desactiva
 
 `pip list` me permite verificar las librerías
+
+ 
+`##Librerías para Python`
+
+`pip install pandas numpy matlolib`
+pandas -> manejo datos  `pip install pandas`
+numpy -> calculo matematico `pip install numpy`
+matplolib -> graficos `pip install matplotlib`

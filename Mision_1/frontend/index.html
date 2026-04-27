@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8"><!-- indica la codificación de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styless.css">
+    </head>
 </head><!-- los niveles son la identación, visualmente nos ayuda con la jerarquía -->
+
 <body>
-    <h1>Hola Mundo</h1>
+    <!-- comentarios -->
+    <h1 class="estilo_h1">Hola Mundo 1 😁</h1>
+    <h1 class="estilo_h1_v2">Hola Mundo 2 😁</h1>
+    <h2>Etiqueta h2 👌</h2>
+    <h3>Etiqueta h3 😒</h3>
+    <h4>Etiqueta h6 🤣</h4>
+    <h5>Etiqueta h5 👍</h5>
+    <h6>Etiqueta h6 💕 </h6>
+
+    <!-- usuario admin password: admin123 -->
+    <hr>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qMZFau7LZUA?si=MGUt8btuspxLfnEJ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <p>Esta etiqueta es de tipo párrafo 📋</p>
+    <hr>
+
+    <!-- Lista ordenada -->
+    <h2>Lista ordenada</h2>
+
+    <ol>
+        <li>Carne</li>
+        <li>Café</li>
+        <li>Arroz</li>
+    </ol>
+    <hr>
+    <!-- Lista desordenada -->
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>Carne</li>
+        <li>Café</li>
+        <li>Arroz</li>
+    </ul>
+    <hr>
+    <!-- Enlace a otras páginas -->
+    <h2>Enlaces</h2>
+    <p>
+        <a href="https://www.youtube.com/" target="_blank">Ir a YouTube</a>
+        <a href="https://www.facebook.com/" target="_blank">Ir a Facebook</a>
+        <a href="https://pruebaurl.github.io/" target="_blank">Enlace a cv Profe</a>
+    </p>
+    <hr>
+    <!-- Imágenes -->
+    <h2>Imágenes</h2>
+    <img src="totoro.jpg" alt="Imagen de totoro">
+    <br>
+    <br>
+    <img src="totoro.jpg" class="mi_imagen" alt="Imagen de totoro" style="max-width: 20%;">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <hr>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+            <th>Estado Civil</th>
+        </tr>
+        <tr>
+            <td>Natalia</td>
+            <td>41</td>
+            <td>Manizales</td>
+            <td>Soltera</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Formulario -->
+    <h3>Formulario de ingreso</h3>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="Contraseña" name="Contraseña"><br><br>
+
+        <label for="Nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="Nacimiento" name="Nacimiento"><br><br>
+
+        <label for="Fecha">Fecha de nacimiento:</label>
+        <input type="datetime-local" id="Fecha" name="Fecha"><br><br>
+
+
+    </form>
+
+    <button class="btn btn-primary">Enviar</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <br><br><br>
+    <div class="card" style="width: 18rem;">
+        <img src="totoro.jpg" class="card-img-top" alt="Imagen de totoro">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
