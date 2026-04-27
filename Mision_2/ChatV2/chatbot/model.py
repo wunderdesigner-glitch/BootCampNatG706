@@ -52,7 +52,7 @@ def load_model():
         print("⚠️ No hay modelo guardado. Será necesario entrenarlo primero.") # Mensaje de error
         return None, None, None # Devolvemos None si no se encuentran los archivos
     
-def predict_answer(model, vectorizer, unique_answers, question):
+def predict_answer(model, vectorizer, unique_answers, user_text):
     x = vectorizer.transform([user_text]) # Convertimos la pregunta a un vector usando el vectorizador
     label = model.predict(x)[0] # Predecimos la etiqueta de la respuesta usando el modelo
     return unique_answers[label] # Devolvemos  la respuesta correspondiente a la etiqueta predicha
