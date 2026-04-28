@@ -28,3 +28,6 @@ activar el entorno
 pandas -> manejo datos  `pip install pandas`
 numpy -> calculo matematico `pip install numpy`
 matplolib -> graficos `pip install matplotlib`
+
+`pip freeze > requirements.txt` para capturar las condiciones 
+`pip install -r requirements.txt` para instalar
